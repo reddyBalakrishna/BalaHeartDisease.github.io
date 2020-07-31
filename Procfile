@@ -1,1 +1,1 @@
-web: python app:app
+echo web: python app.py > Procfile
