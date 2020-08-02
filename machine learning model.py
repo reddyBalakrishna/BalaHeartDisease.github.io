@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pickle
 
-dataset = pd.read_csv('D:/mini1/data1.csv')
+dataset = pd.read_csv('data.csv')
 X = dataset.iloc[:,:-1].values
 y = dataset.iloc[:,-1].values
   
